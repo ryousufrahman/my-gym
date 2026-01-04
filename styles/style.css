@@ -109,3 +109,24 @@ ul li a{
   
   
 }
+/* floating card */
+.card-1{
+  color: white;
+  height: 98px;
+  width: 193px;
+  background-color: rgba(255, 255, 255, .1);
+ align-items: center;
+ text-align: center;
+ border-radius: 10px;
+ position: absolute;
+  top: 250px;
+  right: 65px;
+}
+#card-big-text{
+  font-size: 36px;
+  font-weight: 900;
+   padding-top: 10px;
+   
+  
+  
+}
