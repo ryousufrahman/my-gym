@@ -122,7 +122,7 @@ ul li a{
   top: 250px;
   right: 65px;
 }
-#card-big-text{
+.card-big-text{
   font-size: 36px;
   font-weight: 900;
    padding-top: 10px;
@@ -130,3 +130,32 @@ ul li a{
   
   
 }
+.card-2{
+  display: flex;
+  gap: 10px;
+ color: white;
+  height: 98px;
+  width: 193px;
+  background-color: rgba(255, 255, 255, .1);
+ align-items: center;
+ text-align: center;
+ border-radius: 10px;
+ padding-left: 10px;
+ position: absolute;
+ bottom: 80px;
+ right: 350px;
+}
+.card-big-text{
+  font-size: 36px;
+  font-weight: 900;
+   padding-top: 10px;
+   
+}
+.card-2-circle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #E6533C;
+  
+}
+
