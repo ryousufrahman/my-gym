@@ -5,6 +5,9 @@
   font-style: normal;
   background-color: black;
 }
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -52,4 +55,57 @@ ul li a{
   border: 1px solid rgba(128, 128, 128, .3);
   border-radius: 15px;
   padding: 10px 15px 5px 5px;
+}
+
+/* hero-section */
+.hero-section{
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero-text-button{
+  width: 50%;
+}
+.hero-text-button h1{
+
+ color: white;
+  font-size: 78px;
+  font-weight: 900;
+}
+.hero-button-box{
+  margin-top: 28px;
+  margin-bottom: 28px;
+
+}
+.hbtn{
+  height:54px;
+  width: 254px;
+  border-radius: 20px;
+}
+.hero-btn1{
+  background-color: #E6533C;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.hero-btn2{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.hero-paragraph{
+  color:rgba(255, 255, 255, .5); ;
+  font-size: 16px;
+  font-weight: 400;
+  
+  
 }
