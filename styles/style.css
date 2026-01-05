@@ -166,4 +166,74 @@ ul li a{
   margin:  75px auto;
  
 }
+.habit-heading{
+  text-align: center;
+  margin-bottom: 58px;
+  margin-top: 50px;
+}
+.habit-heading h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  
+}
+.habit-heading p{
+  color: rgba(255, 255, 255, .5);
+  font-size: 16px;
+ margin-top: 10px;
+}
+.all-activity-box{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.activity-box{
+  height: 271px;
+  width: 231px;
+  text-align: center;
+}
+.activity-box h4{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.activity-box p{
+  color: rgba(255, 255, 255, .5);
+  font-size: 14px;
+}
+.activity-box img{
+  border-radius: 50%;
+}
+/* run extra mile section */
 
+.runnig-box{
+  display: flex;
+  gap: 20%;
+  background-color:rgba(128, 128, 128, .3); 
+  padding: 15px 15px 10px 35px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.runnig-box-img{
+  width: 40%;
+}
+.runnig-box-img img{
+  width: 100%;
+  border-radius: 25px;
+}
+.runnig-box-text{
+  width: 40%;
+  padding-top: 10px;
+
+}
+.runnig-box-text h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.runnig-box-text p{
+  color: rgba(255, 255, 255, .5);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
