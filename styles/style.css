@@ -39,6 +39,10 @@ ul li a{
 
 
 }
+.nav-list-item ul li{
+  display: flex;
+  align-items: center;
+}
 
 .home-btn{
   height: 36px;
@@ -236,4 +240,81 @@ ul li a{
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   margin-bottom: 25px;
+}
+
+/* training section starts here */
+.training-section{
+  width: 85%;
+  margin:  75px auto;
+ 
+}
+.training-section-head h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  
+  margin-bottom: 14px;
+  
+}
+.training-section-head p{
+  color: rgba(255, 255, 255, .5);
+  font-size: 16px;
+  margin-bottom: 58px;
+}
+.box1-img1{
+  width: 250px;
+  height: 201px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(6 , 255 ,210 , 0.5) , rgba(6, 255 , 210 , 0.5)) , url(../images/exercise1.jpg);
+  
+  
+}
+.box1-img2{
+  width: 520px;
+  height: 201px;
+  background-size: cover;
+  background-image: url(../images/exercise2.png);
+
+}
+.box1-img3{
+  width: 290px;
+  height: 201px;
+  background-size: cover;
+  background-image: url(../images/exercise3.png);
+  
+}
+.img-box1{
+  display: flex;
+}
+.box2-img1{
+  height: 201px;
+  width: 425px;
+  background-image: url(../images/exercise4.png);
+  background-size: cover;
+  
+}
+.box2-img2{
+  height: 201px;
+  width: 288px;
+  background-image: url(../images/exercise5.jpg);
+  background-size: cover;
+  
+}
+.box2-img3{
+  height: 201px;
+  width: 347px;
+  background-image: url(../images/exercise6.jpg);
+  background-size: cover;
+  
+}
+.img-box2{
+  display: flex;
+}
+.img-box1 , .img-box2 p{
+  color: white;
+  display: flex;
+  align-items: center;
+  
+  
 }
