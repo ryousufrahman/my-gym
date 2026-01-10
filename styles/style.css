@@ -15,7 +15,8 @@
 /* navbar */
 nav {
   display:flex ;
-  width: 85%;
+  width: 73%;
+  max-width: 1060px;
   height: 41px;
   justify-content: space-between;
   margin: auto;
@@ -63,7 +64,8 @@ ul li a{
 
 /* hero-section */
 .hero-section{
-  width: 85%;
+  width: 73%;
+  max-width: 1060px;
   margin: auto;
   margin-top: 40px;
   display: flex;
@@ -166,7 +168,8 @@ ul li a{
 /* habbit section style  */
 
 .habits-section{
-  width: 85%;
+  width: 73%;
+  max-width: 1060px;
   margin:  75px auto;
  
 }
@@ -244,8 +247,10 @@ ul li a{
 
 /* training section starts here */
 .training-section{
-  width: 85%;
+  width: 73%;
+  max-width: 1060px;
   margin:  75px auto;
+  
  
 }
 .training-section-head h2 {
@@ -262,7 +267,7 @@ ul li a{
   margin-bottom: 58px;
 }
 .box1-img1{
-  width: 250px;
+  width: 23%;
   height: 201px;
   background-size: cover;
   background-position: center;
@@ -271,17 +276,18 @@ ul li a{
   
 }
 .box1-img2{
-  width: 520px;
+  width: 49%;
   height: 201px;
   background-size: cover;
-  background-image: url(../images/exercise2.png);
+  background-position: center;
+  background-image: linear-gradient(rgba(255, 0 , 0 , 0.3) , rgba(255 , 0 , 0 , 0.3)) , url(../images/exercise2.png);
 
 }
 .box1-img3{
-  width: 290px;
+  width: 27%;
   height: 201px;
   background-size: cover;
-  background-image: url(../images/exercise3.png);
+  background-image: linear-gradient(rgba(0 ,0 , 0, 0.5) , rgba(0 , 0, 0, 0.5)) , url(../images/exercise3.png);
   
 }
 .img-box1{
@@ -289,22 +295,22 @@ ul li a{
 }
 .box2-img1{
   height: 201px;
-  width: 425px;
-  background-image: url(../images/exercise4.png);
+  width: 40%;
+  background-image: linear-gradient(rgba(0 ,0 , 0, 0.5) , rgba(0 , 0, 0, 0.5)) , url(../images/exercise4.png);
   background-size: cover;
   
 }
 .box2-img2{
   height: 201px;
-  width: 288px;
-  background-image: url(../images/exercise5.jpg);
+  width: 27%;
+  background-image:linear-gradient(rgba(66 ,255 , 0, 0.3) , rgba(66 , 255, 0, 0.3)) ,  url(../images/exercise5.jpg);
   background-size: cover;
   
 }
 .box2-img3{
   height: 201px;
-  width: 347px;
-  background-image: url(../images/exercise6.jpg);
+  width: 32%;
+  background-image:linear-gradient(rgba(0 ,71 , 255, 0.3) , rgba(0 , 71, 255, 0.3)) ,  url(../images/exercise6.jpg);
   background-size: cover;
   
 }
