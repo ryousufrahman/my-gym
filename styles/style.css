@@ -46,8 +46,7 @@ ul li a{
 }
 
 .home-btn{
-  height: 36px;
-  width: 96px;
+  padding: 8px 20px;
   background-color: #E6533C;
   border: none;
   border-radius: 15px;
@@ -88,8 +87,7 @@ ul li a{
 
 }
 .hbtn{
-  height:54px;
-  width: 254px;
+  padding: 16px 46px;
   border-radius: 20px;
 }
 .hero-btn1{
@@ -115,6 +113,9 @@ ul li a{
   
   
 }
+.hero-img-card{
+  position: relative;
+}
 /* floating card */
 .card-1{
   color: white;
@@ -125,8 +126,8 @@ ul li a{
  text-align: center;
  border-radius: 10px;
  position: absolute;
-  top: 250px;
-  right: 65px;
+ top: 140px;
+ right: -80px;
 }
 .card-big-text{
   font-size: 36px;
@@ -148,8 +149,9 @@ ul li a{
  border-radius: 10px;
  padding-left: 10px;
  position: absolute;
- bottom: 80px;
- right: 350px;
+ bottom: 100px;
+ left: -80px;
+ 
 }
 .card-big-text{
   font-size: 36px;
